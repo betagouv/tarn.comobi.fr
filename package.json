@@ -64,6 +64,6 @@
 		"file-loader": "^4.2.0",
 		"js-yaml-loader": "^1.2.2",
 		"node-env-run": "^4.0.2",
-		"webpack-cli": "^4.2.0"
+		"webpack-cli": "^4.5.0"
 	}
 }

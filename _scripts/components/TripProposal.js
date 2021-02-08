@@ -98,7 +98,7 @@ export default function TripProposal({
 							trackDemande(contact ? 'contact direct' : 'faire une demande')
 							setSelected(true)
 					  }}>${
-							contact ? '📞 Contacter direct' : 'Faire une demande'
+							contact ? '📞 Contacter' : 'Faire une demande'
 					  }</${ContactButtonStyle}>`
 			}
 		</li>

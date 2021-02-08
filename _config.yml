@@ -22,3 +22,9 @@ sass:
 exclude:
   - direct/
   - outil-metier/
+
+defaults:
+- scope:
+    path: "assets/img"
+  values:
+    image: true

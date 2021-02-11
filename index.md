@@ -1,12 +1,11 @@
 ---
 layout: home
 ---
-# Pas de transports en communs ? votre territoire vous propose une solution facile ! 
- CoMobi est un outil minimaliste permettant à un territoire peu dense d’expérimenter la mise en place de covoiturage solidaire simplement et à moindre frais. Il permet : 
+# Pas de transports en communs ? Des difficultés pour vous déplacer ? Votre association Otéma TSA vous propose une solution facile!  
+ Tarn Comobi permet :
   - aux conducteurs.rices, de proposer leur(s) trajet(s) en voiture,
   - aux personnes non-motorisées, de rechercher un conducteur qui fait leur trajet, et de le contacter en direct,
-  - aux territoires administrateurs, d’assurer une partie des mises en relation, par exemple via un standard téléphonique.
-
+   
 # Passagers, recherchez un trajet en ligne
 
 [Rechercher un trajet](/recherche){:target="_blank" .btn .search }
@@ -19,6 +18,12 @@ Indiquez vos lieux de départ, d'arrivée et horaires habituels : pas de détour
 
 [Proposer mon trajet](https://docs.google.com/forms/d/e/1FAIpQLSfirgGZ4B_OnP3oe9q_CxMi3Lm5hpCyk_GSIdm9wtizvq3RMA/viewform){:target="_blank" .btn .proposal }
 ![Hero](/assets/images/hero.png)
+
+# Des difficultés pour vous inscrire ?
+Otéma TSA vous accompagne par mail ou par téléphone et vous guidera 
+
+# Pourquoi Otéma TSA , association qui oeuvre pour les personnes avec autisme  met-elle en place une plateforme de covoiturage ?
+Tout simplement pour développer les offres de transports pour tous et permettre à des personnes très éloignées de l'emploi dont les personnes avec autisme de bénéficier d'une solution de mobilité sur le département du Tarn. Conducteurs.rices , si vous êtes intéressés(es) pour bénéficier d'une sensibilisation à l'autisme prenez contact avec l'association . 
 
 <!-- section -->
 # Questions fréquentes

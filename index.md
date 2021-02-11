@@ -40,7 +40,7 @@ L'assurance responsabilité civile du conducteur (comprise dans l'assurance auto
 - Qu'en est-il de la protection des données personnelles ?
 Les seules données collectées sont celles fournies par les conducteurs et conductrices.
 Ces données sont utilisées uniquement pour la mise en relation avec les passager·ère·s.
-Pour toute modification ou suppression, vous pouvez contacter [le service covoiturage](mailto:comobi@beta.gouv.fr).
+Pour toute modification ou suppression, vous pouvez contacter [le service covoiturage](mailto:tarn.comobi@gmail.com).
 
 - Et en période de COVID ?
 Le site est fonctionnel et les trajets possibles en période de renforcement des mesures sanitaires. Nous appelons à la responsabilité des passagers et conducteurs pour respecter les gestes barrières et recommandations disponibles [ici](https://www.gouvernement.fr/sites/default/files/affiche_mesures_barrieres_covoiturage.pdf){:target="_blank"}.

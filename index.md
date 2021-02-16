@@ -23,7 +23,7 @@ Indiquez vos lieux de départ, d'arrivée et horaires habituels : pas de détour
 Otéma TSA vous accompagne par mail ou par téléphone et vous guidera 
 
 # Pourquoi Otéma TSA , association qui oeuvre pour les personnes avec autisme  met-elle en place une plateforme de covoiturage ?
-Tout simplement pour développer les offres de transports pour tous et permettre à des personnes très éloignées de l'emploi dont les personnes avec autisme de bénéficier d'une solution de mobilité sur le département du Tarn. Conducteurs.rices , si vous êtes intéressés(es) pour bénéficier d'une sensibilisation à l'autisme prenez contact avec l'association . 
+Tout simplement pour développer les offres de transports pour tous et permettre à des personnes très éloignées de l'emploi dont les personnes avec autisme de bénéficier d'une solution de mobilité sur le département du Tarn. Conducteurs.rices , si vous êtes intéressés(es) pour bénéficier d'une sensibilisation à l'autisme prenez contact avec l'association .  otema.tsa@gmail.com
 
 <!-- section -->
 # Questions fréquentes

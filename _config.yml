@@ -11,7 +11,7 @@ couleurs:
   odd_section_color: "#ecf0f1"
 
 bandeau:
-  image: "/images/Bancomobi.png "
+  image: "/images/bannierecomobi1.png"
   texte: "Bandeau Comobi Tarn"
 
 ## Les sections suivantes ne sont pas à modifier

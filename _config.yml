@@ -20,7 +20,8 @@ bandeau:
 sass:
   sass_dir: _sass
   style: compressed
-
+include:
+  - _config.yml
 exclude:
   - direct/
   - outil-metier/

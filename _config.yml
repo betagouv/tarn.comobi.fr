@@ -20,11 +20,16 @@ bandeau:
 sass:
   sass_dir: _sass
   style: compressed
-include:
-  - _config.yml
+
 exclude:
   - direct/
   - outil-metier/
+
+include:
+  - _config.yml 
+
+keep_files:
+  - _config.yml 
 
 code_source:
   instance: "https://github.com/betagouv/tarn.comobi.fr"

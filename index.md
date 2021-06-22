@@ -9,8 +9,8 @@ styles:
 
 
 image:
-  url: "/images/banniere2503.png"
-  alt: "Bandeau Comobi Tarn"
+  url: "/images/bannierecomobi2206.png"
+  <alt: "Bandeau Comobi Tarn"
   bandeau: true
 
 #title:  # Optionnel

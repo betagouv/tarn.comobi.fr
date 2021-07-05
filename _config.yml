@@ -20,8 +20,8 @@ bandeau:
 #france mobilité.jpg
 #girou.jpg
 #logo GG.jpg
-#occitanie.png
-logo otéma.png
+#occitanie.
+#logo otema.png
 ## Les sections suivantes ne sont pas à modifier
 sass:
   sass_dir: _sass

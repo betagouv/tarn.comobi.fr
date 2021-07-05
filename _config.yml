@@ -12,10 +12,11 @@ bandeau:
   texte: "Bandeau Comobi Tarn"
 
 # A compléter
-#liste-logo: 
+liste-logo :
+  -"AG2R.png"
 #AG2R.png
 #CASD2_fondblanc.jpg
-#LA MACIF.png
+#LA MACIF
 #covirtua.png
 #france mobilité.jpg
 #girou.jpg

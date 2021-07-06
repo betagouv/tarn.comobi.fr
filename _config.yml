@@ -14,11 +14,11 @@ bandeau:
 # A compléter
 liste-logo :
   - "/images/AG2R.png"
-#AG2R.png
-#CASD2_fondblanc.jpg
-#LA MACIF
-#covirtua.png
-#france mobilité.jpg
+  - "/images/CASD2_fondblanc.jpg"
+  - "/images/#LA MACIF"
+  - "/images/LOGO + SIGNATURE VERTICAL QUADRI.jpg"
+  - "/images/covirtua.png"
+ #france mobilité.jpg
 #girou.jpg
 #logo GG.jpg
 #occitanie.

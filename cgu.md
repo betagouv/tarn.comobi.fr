@@ -1,6 +1,3 @@
----
-layout: default
----
 # Conditions générales d’utilisation et de service de Tarn.Comobi.fr
 
 Les présentes conditions générales fixent le cadre juridique de la Plateforme

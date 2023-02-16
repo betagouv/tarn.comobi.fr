@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 # Conditions générales d’utilisation et de service de Tarn.Comobi.fr
 

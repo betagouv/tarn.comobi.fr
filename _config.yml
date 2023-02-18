@@ -14,7 +14,9 @@ bandeau:
   texte: "Bandeau Comobi Tarn"
 
 # A compléter
-  - "https://www.sami-mobilite81.com/partenaires"
+liste-logo :
+- "images/partenaires.jpg"
+  
  ## Les sections suivantes ne sont pas à modifier
 sass:
   sass_dir: _sass

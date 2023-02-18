@@ -15,7 +15,7 @@ bandeau:
 
 # A compléter
 liste-logo :
-  - "/images/logo otema.jpg"
+  - "/images/logo otéma.jpg"
  ## Les sections suivantes ne sont pas à modifier
 sass:
   sass_dir: _sass

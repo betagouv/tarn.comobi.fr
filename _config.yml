@@ -1,0 +1,45 @@
+titre: "Tarn.Comobi la solution de covoiturage entre tarnais !"
+mail: "contact@otema-tsa.fr"
+tel: "07 69 78 04 43 - 06 33 77 62 40"
+nom: "Tarn.Comobi"
+formulaire: "https://docs.google.com/forms/d/1JMiPKb69tEFLCoPCuyEmCShHIRs9raC8XLileZTRTVE/viewform?usp=sf_link"
+formulaire_passager: "https://docs.google.com/forms/d/e/1FAIpQLScfZKk6qeVPw3zDVHnYl2Hzw6urgAXRYBXftW1WNb7CA325mA/viewform?usp=sf_link"
+lien_cgu: "/cgu"
+lien_site internet: "/faq"
+code_departement: "81"
+liste_noms_locaux_lieux: "174EVppbxiTxIQkG5FhpMUkbCGt2jmmrucCBaLE1VHUk"
+
+bandeau:
+  image: "/images/banniere2503.png"
+  texte: "Bandeau Comobi Tarn"
+
+# A compléter
+liste-logo :
+- "images/partenaires.jpg"
+  
+ ## Les sections suivantes ne sont pas à modifier
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - direct/
+  - outil-metier/
+
+include:
+  - _config.yml 
+
+keep_files:
+  - _config.yml 
+
+code_source:
+  instance: "https://github.com/betagouv/tarn.comobi.fr"
+  comobi: "https://github.com/betagouv/comobi"
+
+defaults:
+- scope:
+    path: "assets/img"
+  values:
+    image: true
+
+update: "30-03-2021"

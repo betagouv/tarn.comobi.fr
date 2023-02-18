@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Tarn.Comobi la solution de covoiturage entre tarnais !</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+	<link crossorigin="anonymous" rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/twbs/bootstrap@v4/dist/css/bootstrap-reboot.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Work+Sans&display=swap" rel="stylesheet" />
+  <script crossorigin="anonymous"
+      src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.flat%2CArray.prototype.includes%2CObject.entries%2CObject.fromEntries%2CPromise%2CPromise.prototype.finally%2CObject.values%2Cfetch%2Ces2018%2Ces2017%2Ces2016%2Ces2015"></script>
+
+</head>
+
+<body>
+
+  
+<header class="header">
+  <div class="menu">
+    <div class="topnav">
+      <a class="icon" onclick="openMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <div class="logo">
+        <p class="instance-name">Tarn.Comobi la solution de covoiturage entre tarnais !</p>
+        <div class="with-comobi">avec <img src="generic-images/logo-comobi-sfblack.svg"/></div>
+      </div>
+      <div class="menu-item-list">
+        <a class="menu-item" href="/">Tous les trajets</a>
+        <a class="menu-item" href="/commentCaMarche">Comment ça marche ?</a>
+        <a class="menu-item" href="https://docs.google.com/forms/d/1JMiPKb69tEFLCoPCuyEmCShHIRs9raC8XLileZTRTVE/viewform?usp=sf_link">Proposer un trajet</a>
+      </div>
+    </div>
+    <div class="header-button">
+      <a class="search-btn" href="https://docs.google.com/forms/d/1JMiPKb69tEFLCoPCuyEmCShHIRs9raC8XLileZTRTVE/viewform?usp=sf_link">Proposer un trajet</a>
+    </div>
+  </div>
+</header>
+
+<script>
+function openMobileMenu() {
+  let menuItemListElements = document.getElementsByClassName("menu-item-list");
+  if (menuItemListElements.length > 0) {
+    let menuItemList = menuItemListElements.item(0);
+    if (menuItemList.style.display === "block") {
+      menuItemList.style.display = "none";
+    } else {
+      menuItemList.style.display = "block";
+    }
+  }
+}
+
+function displayActiveMenuItem() {
+    let path = decodeURIComponent(window.location);
+    let menuItemList = document.getElementsByClassName("menu-item-list");
+    if (menuItemList.length > 0) {
+      let menuItem = menuItemList.item(0).children;
+      for(i=0 ; i < menuItem.length ; i+=1) {
+        let item = menuItem.item(i);
+          if (path === item.href) {
+              item.className += " active";
+          }
+      }
+    } else {
+      throw "there is no menu item";
+    }
+}
+displayActiveMenuItem()
+</script>
+  
+  <main>
+    <h1 id="conditions-générales-dutilisation-et-de-service-de-tarncomobifr">Conditions générales d’utilisation et de service de Tarn.Comobi.fr</h1>
+
+<p>Les présentes conditions générales fixent le cadre juridique de la Plateforme
+Tarn.Comobi et définissent les conditions d’accès et d’utilisation des services par l’Utilisateur.</p>
+
+<h2 id="champ-dapplication">Champ d’application</h2>
+<p>La Plateforme est d’accès libre et gratuit à tout Utilisateur. La simple visite de la Plateforme suppose l’acceptation par tout Utilisateur des présentes conditions générales d’utilisation.</p>
+
+<p>L’inscription sur la Plateforme peut entraîner l’application de conditions spécifiques, listées dans les présentes Conditions générales. Les CG sont réputées conclues entre l’Utilisateur et l’association Otéma TSA à compter de la publication  d’un  Trajet  ou  de  l’effectuation  d’une Recherche de Trajet sur la Plateforme par l’Utilisateur et jusqu’à leur résiliation par l’une ou l’autre des parties dans les conditions visées à l’article 6 des CG.</p>
+
+<p>Otéma TSA éditeur de la Plateforme, n’est partie à aucun accord, contrat ou relation contractuelle, de quelque nature que ce soit, conclu entre les utilisateurs de son Service.</p>
+
+<h2 id="objet">Objet</h2>
+<p>Tarn.Comobi est une plateforme de covoiturage accessible par le site internet www.tarn.comobi.fr et par téléphone, et destiné à mettre en relation des conducteurs se rendant à une destination donnée pour leur propre compte  avec  des  passagers  allant dans la même direction. Ceci leur  permet d’effectuer  un  trajet  ensemble  et éventuellement de partager les frais qui y sont associés.</p>
+
+<p>Les présentes conditions générales d’utilisation ont pour objet d’encadrer l’accès et les modalités d’utilisation du Service, qu’il soit utilisé par le biais du Site ou par téléphone.</p>
+
+<h2 id="définitions">Définitions</h2>
+<p><strong>« CG »</strong> désigne les présentes Conditions Générales d’Utilisation et de Service ;
+<strong>« Conducteur »</strong> désigne un Utilisateur proposant, sur la Plateforme, de transporter une autre personne physique, pour un trajet et un horaire défini par lui-seul.
+<strong>« Demande de Réservation »</strong> désigne la demande d’un Passager souhaitant réserver une Place sur un Trajet spécifique.
+<strong>« Passager »</strong> désigne l’Utilisateur effectuant une Recherche de Trajet sur la Plateforme, et partageant éventuellement le Trajet d’un Conducteur.
+<strong>« Participation aux frais »</strong> désigne, pour un Trajet donné, la somme d’argent payée par le Passager au titre de sa participation aux frais engagés par le Conducteur. Son montant est défini par le Conducteur.
+<strong>« Plateforme »</strong> désigne le service accessible depuis le site www.tarn.comobi.fr ou le numéro de téléphone apparaissant sur ce même site.
+<strong>« Recherche de trajet »</strong> désigne la recherche par un Utilisateur d’un trajet correspondant à un lieu de départ, lieu d’arrivée et horaire précis, qu’elle ait lieu sur le Site ou par téléphone.
+<strong>« Réservation »</strong> désigne l’acceptation d’une Demande de Réservation par le Conducteur. « Site » désigne le site accessible depuis l’URL www.tarn.comobi.fr.
+<strong>« Trajet »</strong> désigne le trajet publié par un Conducteur sur la Plateforme et dans le cadre duquel il peut transporter des Passagers.</p>
+
+<h2 id="présentation-de-la-plateforme">Présentation de la Plateforme</h2>
+<p>La Plateforme permet au Conducteur de présenter un ou plusieurs Trajets qu’il effectue de manière régulière ou non et pour lesquels il est disposé à transporter un  ou  des  Passagers. Tout Trajet publié est défini par un lieu de départ, un lieu d’arrivée, un horaire, une fréquence de réalisation et une éventuelle demande de Participation aux frais : ces différents éléments sont communiqués à la Plateforme par le Conducteur en vue de leur publication sur le Site et dans les bases de données informatiques de la Plateforme. Le Conducteur communique également son identité complète ainsi que son adresse email et son numéro de téléphone, dans le but d’être recontacté pour transporter des Passagers.</p>
+
+<h3 id="recherche-de-trajet-et-mise-en-relation">Recherche de trajet et mise en relation</h3>
+<p>La Plateforme permet également au Passager d’effectuer une Recherche de trajet correspondant à son lieu de départ, lieu d’arrivée, horaire et fréquence de réalisation. Il peut effectuer cette recherche lui-même sur le Site ou bien communiquer ses critères de recherche par téléphone ou via un formulaire de demande de Trajet sur le Site, afin que la Recherche de trajet soit effectuée par un opérateur de la Plateforme pour son compte.
+Lorsqu’il effectue la Recherche sur le Site, le Passager se charge de contacter les Conducteurs proposant des Trajets qui l’intéressent afin de définir avec eux les modalités du covoiturage : lieu de rencontre, lieu de dépose, horaire, fréquence, Participation aux frais éventuelle. Lorsque la Recherche de trajet est confiée à un opérateur de la Plateforme, celui-ci se charge de sélectionner des Trajets publiés correspondant à ces mêmes modalités et de mettre en relation les Conducteurs correspondant et le Passager demandeur.</p>
+
+<p>La Plateforme n’intervient pas au delà de cette étape de permettre la mise en relation du Conducteur et du Passager, qu’elle se fasse via le Site ou via un opérateur. Notamment, la Plateforme n’intervient pas dans la définition ni le paiement de l’éventuelle Participation aux
+frais et ne perçoit aucune commission. La relation nouée entre les Utilisateurs relève de leur pleine et entière responsabilité.</p>
+
+<p>L’ensemble des services proposés par la Plateforme le sont à titre gracieux. Le code du logiciel est libre, et peut donc être vérifié et amélioré par tous.</p>
+
+<h2 id="engagements-et-responsabilité-des-utilisateurs-du-site">Engagements et responsabilité des Utilisateurs du Site</h2>
+<h3 id="engagements-de-léditeur">Engagements de l’éditeur</h3>
+<p>Les sources des informations diffusées sur la Plateforme sont réputées fiables mais l’association Otéma TSA ne garantit pas qu’il soit exempt de défauts, d’erreurs ou d’omissions.</p>
+
+<p>Tout événement dû à un cas de force majeure ayant pour conséquence un dysfonctionnement de la Plateforme et sous réserve de toute interruption ou modification en cas de maintenance, n’engage pas la responsabilité de l’association Otéma TSA.</p>
+
+<p>L’éditeur s’engage à mettre en œuvre toutes mesures appropriées, afin de protéger les données traitées.</p>
+
+<p>L’éditeur s’engage à la sécurisation de la Plateforme, notamment en prenant toutes les mesures nécessaires permettant de garantir la sécurité et la confidentialité des informations fournies.</p>
+
+<p>L’éditeur fournit les moyens nécessaires et raisonnables pour assurer un accès continu, sans contrepartie financière, à la Plateforme. Il se réserve la liberté de faire évoluer, de modifier ou de suspendre, sans préavis, la plateforme pour des raisons de maintenance ou pour tout autre motif jugé nécessaire.</p>
+
+<p>Ce site peut mettre à disposition des liens pouvant orienter l’utilisateur vers des sites réalisés par des tiers extérieurs. Ces tiers sont les seuls responsables du contenu publié par leur soin. L’équipe n’a aucun contrôle sur le contenu de ces sites, ces contenus ne sauraient engager la responsabilité de l’administration.</p>
+
+<h3 id="engagements-de-lensemble-des-utilisateurs">Engagements de l’ensemble des utilisateurs</h3>
+<p>Lorsqu’ils utilisent la Plateforme et lors des Trajets, les utilisateurs s’engagent à :</p>
+<ul>
+  <li>ne pas utiliser la Plateforme dans le cadre d’une activité professionnelle, commerciale ou lucrative ;</li>
+  <li>ne tenir aucun propos, n’avoir aucun comportement (y compris pendant la réalisation d’un trajet) ou ne publier sur la Plateforme aucun contenu à caractère diffamatoire, injurieux, obscène, pornographique, vulgaire, offensant, agressif, déplacé, violent, menaçant, harcelant, raciste, xénophobe, à connotation sexuelle, incitant à la haine, à la violence, à la discrimination ou à la haine, encourageant les activités ou l’usage de substances illégales ou, plus généralement, contraires aux finalités de la Plateforme, ou contraires aux bonnes mœurs et aux lois françaises ;</li>
+  <li>ne contacter un autre Utilisateur, notamment par l’intermédiaire de la Plateforme, que dans le but de définir les modalités du covoiturage ;</li>
+  <li>utiliser les informations et données accessibles sur le Site relatives à d’autres Utilisateurs, notamment les coordonnées, uniquement à des fins d’organisation d’un Trajet ;</li>
+  <li>publier et diffuser via la Plateforme uniquement des informations exactes, ne portant atteinte ni à la réputation ni aux droits d’un tiers et non commerciales. Il est rappelé que toute personne procédant à une fausse déclaration pour elle-même ou pour autrui s’expose, notamment, aux sanctions prévues à l’article 441-1 du code pénal, prévoyant des peines pouvant aller jusqu’à trois ans d’emprisonnement et 45 000 euros d’amende.</li>
+</ul>
+
+<h3 id="engagements-des-conducteurs">Engagements des Conducteurs</h3>
+<p>Les Conducteurs utilisant la Plateforme s’engagent également à :</p>
+<ul>
+  <li>respecter l’intégralité des règles en vigueur relatives à la conduite et à l’état et l’entretien du véhicule, particulièrement en matière de sécurité. Notamment, le Conducteur s’engage à disposer d’une assurance responsabilité civile valide au moment du Trajet, qui couvre ses Passagers dans le cadre du covoiturage, et à être en possession d’un permis de conduire valide ;</li>
+  <li>respecter le Parcours convenu avec les Passagers, et, sauf accord contraire avec eux, se rendre au lieu de rencontre et au lieu de dépose convenus et à l’horaire défini entre eux ;
+communiquer à un opérateur de la Plateforme ou à tout Passager qui en émet la demande, son permis de conduire, sa carte grise et/ou son attestation d’assurance ;</li>
+  <li>informer les Passagers au plus tôt en cas d’empêchement ou de modification de l’horaire ou du Trajet ;</li>
+  <li>limiter le montant de la Participation aux frais demandée au partage des frais liés au Trajet.</li>
+</ul>
+
+<h3 id="engagements-des-passagers">Engagements des Passagers</h3>
+<p>Les Passagers utilisant la Plateforme s’engagent également à :</p>
+<ul>
+  <li>adopter un comportement respectueux du Conducteurs, des autres Passagers, du véhicule et de sa propreté ;</li>
+  <li>informer le Conducteur au plus vite en cas d’empêchement ou de retard ;</li>
+  <li>si une Participation aux frais est demandée par le Conducteur, payer le montant convenu ;</li>
+  <li>communiquer une pièce d’identité à un opérateur de la Plateforme ou à un Conducteur qui en fait la demande ;</li>
+  <li>ne transporter aucun bien dont la possession ou le transport est contraire interdite ;</li>
+  <li>être majeur ou muni d’une autorisation parentale valide au jour du trajet ;</li>
+  <li>être joignable au numéro de téléphone portable qu’ils ont renseigné sur la Plateforme le cas échéant, en amont du Trajet réservé et au minimum à l’horaire de rencontre convenu.</li>
+</ul>
+
+<p>Les Utilisateurs sont pleinement conscients que le respect de tous ces engagements relève de leur seule responsabilité.</p>
+
+<p>L’association otéma TSA n’encourt en tout état de cause aucune responsabilité de quelque nature que ce soit en cas de non respect de l’un  ou l’autre de ces engagements par les Utilisateurs.</p>
+
+<p>Par ailleurs, l’Association  Otéma TSA n’offre aucune garantie, de quelque nature que ce  soit, en cas d’annulation d’une Réservation de la part d’un Passager ou d’un Conducteur,   et ce quel qu’en soit le motif, ni en cas de litige autour de la Participation aux frais ou du non-paiement de celle-ci.</p>
+
+<h2 id="disponibilité-de-la-plateforme">Disponibilité de la Plateforme</h2>
+<p>L’association Otéma TSA s’efforce de permettre l’accès au Site à tout moment, et  l’utilisation de la Plateforme par téléphone aux horaires précisés sur le Site. Cependant Otéma TSA se réserve le droit de modifier ou d’interrompre, à sa seule discrétion, de manière temporaire  ou   permanente,   tout   ou   partie  de  l’accès  à  la  Plateforme  ou   de ses fonctionnalités, que ce soit via le Site ou par téléphone.</p>
+
+<h2 id="résiliation-et-limitations-daccès">Résiliation et limitations d’accès</h2>
+<p>Les présentes CG constituent un contrat entre les Utilisateurs et la Préfecture du Lot, que les parties peuvent résilier à tout moment, sans frais et sans motif. Les Utilisateurs peuvent exercer ce droit de résiliation en adressant un email à l’adresse tarn.comobi@gmail.com,   ou un courrier recommandé à : Otéma TSA - Mairie de Giroussens - 81500 Giroussens</p>
+
+<p>En cas de non-respect de l’un ou l’autre des engagements décrits à l’article 4, l’association Otéma TSA se réserve le droit de supprimer toute annonce d’un Conducteur, ainsi que de limiter ou bloquer l’accès d’un Passager à des Demandes de réservation ; ceci sans  préavis, justification ni indemnisation à fournir.</p>
+
+<h2 id="données-personnelles">Données personnelles</h2>
+
+<p><strong>Le responsable de la publication</strong> est : Laurent Peytavy, Président de l’association Otéma TSA</p>
+
+<p><strong>Données personnelles traitées</strong>
+La présente Plateforme traite les données personnelles suivantes :
+Pour les Internautes : données de connexion, données de navigation.
+Pour les conducteurs : adresse, statut professionnel (actif, retraité,  autre),  trajet réalisé, fréquence du trajet, heure du trajet, prénom, nom, numéro de téléphone, adresse e-mail.
+Pour le passager : raison d’intérêt pour Tarn.Comobi, trajet souhaité, fréquence du trajet, heure du trajet, motif du trajet, prénom, nom, numéro de téléphone, adresse e-mail.</p>
+
+<p><strong>Finalités</strong>
+Ces données sont nécessaires et proportionnées pour la réalisation de la mission de la Plateforme. Elles permettent de mettre en relation des conducteurs se rendant à une destination donnée pour leur propre compte avec des passagers allant dans la même direction. Ceci leur permet de d’effectuer un trajet ensemble et éventuellement de partager les frais qui y sont associés.
+Elles permettent également d’assurer un fonctionnement de la Plateforme et sa sécurité.</p>
+
+<p><strong>Bases juridiques</strong>
+Conformément aux dispositions de l’article 6 du Règlement relatif à la protection des données (appelé RGPD), le traitement est nécessaire à l’exécution d’une mission d’intérêt public ou relève de l’exercice de l’autorité publique dont est investi le Responsable de traitement.</p>
+
+<p><strong>Durée de conservation</strong>
+Les données traitées sont conservées tant que l’utilisateur est inscrit sur la plateforme. Elles sont ensuite archivées pendant une durée de 5 ans.</p>
+
+<p>Passés ces délais de conservation,Otéma TSA  s’engage  à  supprimer  définitivement les données des personnes concernées.</p>
+
+<p><strong>Sécurité et confidentialité</strong>
+Les données personnelles sont traitées dans des conditions sécurisées, selon les moyens actuels de la technique, dans le respect des dispositions relatives à la protection de la vie privée et notamment au référentiel général de sécurité, prévu à l’article 9 de l’ordonnance 2005-1516 du 8 décembre 2005 relative aux échanges électroniques entre les usagers et les autorités administratives et entre les autorités administratives.</p>
+
+<p><strong>Droits des personnes concernées</strong>
+Vous disposez des droits suivants concernant vos données à caractère personnel :</p>
+<ul>
+  <li>Droit d’information, d’accès et de communication des données ;</li>
+  <li>Droit de rectification et le cas échéant de suppression des données ;</li>
+  <li>Droit d’opposition au traitement de données, le cas échéant.</li>
+</ul>
+
+<p>Vous pouvez exercer ces droits en écrivant à tarn.comobi@gmail.com</p>
+
+<p>En raison  de  l’obligation  de  sécurité et de confidentialité dans le traitement des données  à caractère personnel qui incombe à Otéma TSA, votre demande sera uniquement traitée   si vous rapportez la preuve de votre identité.</p>
+
+<p>Vous avez la possibilité de vous opposer à un traitement de vos données personnelles.
+<strong>Délais de réponse</strong>
+Otéma TSA s’engage à répondre à votre demande d’accès, de rectification ou d’opposition ou toute  autre  demande  complémentaire  d’informations  dans  un  délai raisonnable qui ne saurait dépasser 1 mois à compter de la réception de votre demande.</p>
+
+<p><strong>Destinataires :</strong>
+Les données collectées et les demandes, ou dossiers réalisés depuis la Plateforme sont traitées par les seules personnes juridiquement habilitées à connaître des informations traitées.</p>
+
+<p>L’association Otéma TSA veille à ne fournir des accès qu’aux seules personnes juridiquement habilitées à connaître des informations traitées.</p>
+
+<p><strong>Sous-traitants :</strong>
+Certaines des données sont envoyées à des sous-traitants pour réaliser certaines missions. Tarn.Comobi s’est assuré de la mise en œuvre par ses sous-traitants de garanties adéquates et du respect de conditions strictes de confidentialité, d’usage et de protection des données.</p>
+
+<p><strong>Cookies</strong>
+Tarn.comobi pourra faire usage de cookies. Certains cookies sont dispensés du recueil préalable de votre consentement dans la mesure où ils sont strictement nécessaires à la fourniture du service. Les traceurs ont vocation à être conservés sur le poste informatique de l’Utilisateur pour une durée allant jusqu’à 13 mois.</p>
+
+<h2 id="validité-et-modification-des-cg">Validité et modification des CG</h2>
+<p>L’association Otéma TSA peut modifier, à tout moment et sans préavis, les présentes CG  afin de les adapter aux évolutions de la Plateforme et de  se  conformer  à  la réglementation en vigueur.</p>
+
+<p>Si une partie quelconque des CG devait s’avérer illégale, invalide ou inapplicable, l’ensemble des autres dispositions  du  présent  contrat  conserveraient  leur  force,  portée et s’appliqueraient de plein droit.</p>
+
+<h2 id="droit-applicable">Droit applicable</h2>
+<p>La Plateforme et les présentes  CG  sont  régis  par  le  droit  français,  quel  que  soit  le  lieu d’utilisation. En cas de contestation, les parties sont  tenues  de  rechercher  une solution amiable avant de saisir les tribunaux français compétents.</p>
+
+<h1 id="questions-fréquentes">Questions fréquentes</h1>
+
+<ul>
+  <li>
+    <p>Pourquoi Otéma TSA , association qui oeuvre pour les personnes avec autisme  met-elle en place une plateforme de covoiturage ?
+Tout simplement pour développer les offres de transports pour tous et permettre à des personnes très éloignées de l’emploi dont les personnes avec autisme de bénéficier d’une solution de mobilité sur le département du Tarn. Conducteurs.rices , si vous êtes intéressés(es) pour bénéficier d’une sensibilisation à l’autisme prenez contact avec l’association .  otema.tsa@gmail.com</p>
+  </li>
+  <li>
+    <p>Des difficultés pour vous inscrire ?
+Otéma TSA vous accompagne par mail ou par téléphone et vous guidera</p>
+  </li>
+  <li>
+    <p>Est-ce qu’il faut payer ?
+Le prix : gratuit, mais vous pouvez aussi vous arranger avec votre conducteur si vos trajets sont réguliers. Le service lui reste gratuit, pas d’échange d’argent via le site, c’est un service public accessible à tous !</p>
+  </li>
+  <li>
+    <p>Faut-il faire l’aller et le retour ensemble ?
+Non, sauf si ça arrange tout le monde. Un passager peut faire
+l’aller et le retour avec des conducteurs différents.</p>
+  </li>
+  <li>
+    <p>Est-ce que je peux contacter directement les conducteurs qui m’intéressent ?
+Oui, en cliquant <a href="/recherche" target="_blank">ici</a> vous pouvez
+rechercher un trajet dans notre base de conducteurs inscrits.</p>
+  </li>
+  <li>
+    <p>Comment ça se passe côté assurances et en cas d’accident pendant le covoiturage ?
+L’assurance responsabilité civile du conducteur (comprise dans l’assurance auto) couvre les passagers et les indemnise en cas d’accident. Le conducteur doit prévenir son assureur qu’il pratique le covoiturage et s’assurer que les trajets domicile-travail sont bien couverts.</p>
+  </li>
+  <li>
+    <p>Qu’en est-il de la protection des données personnelles ?
+Les seules données collectées sont celles fournies par les conducteurs et conductrices.
+Ces données sont utilisées uniquement pour la mise en relation avec les passager·ère·s.
+Pour toute modification ou suppression, vous pouvez contacter <a href="mailto:contact@otema-tsa.fr">le service covoiturage</a>.</p>
+  </li>
+</ul>
+
+  </main>
+
+  <section class="partner-section">
+	<p>Tarn.Comobi existe grâce au soutien de nombreux partenaires</p>
+	<p>Nous les remercions chaleureusement !</p>
+	<div class="partner-logo-list">
+	  <!-- Logo en plus -->
+	  
+	  	<img src="images/partenaires.jpg"/>
+	  
+	</div>
+	<p>Vous souhaitez mettre en place du covoiturage sur votre territoire ?</p>
+	<p>Comobi est gratuit, open-source, et vous propose un accompagnement personnalisé !</p>
+	<a class="search-btn" href="mailto:contact@otema-tsa.fr" >Demander une démonstration</a>
+
+  </section>
+<footer>
+	<section class="footer">
+		<div>
+			<p>Distribué par <img src="generic-images/logo-comobi-sfb.png" /> </p>
+			<a href="http://comobi.fr">site internet</a>
+			<a href="https://github.com/betagouv/comobi" target="_blank">Code source comobi-core</a>
+			<a href="https://github.com/betagouv/tarn.comobi.fr" target="_blank">Code source de cette instance</a>
+			<a href="/cgu">Conditions Générales D'utilisation</a>
+		</div>
+		<div>
+				<p>Nous contacter - Tarn.Comobi la solution de covoiturage entre tarnais ! <br /> </p>
+				<p>Email :  <a href="mailto:contact@otema-tsa.fr">contact@otema-tsa.fr </a></p>
+				<p>Tél : <a href="tel:07 69 78 04 43 - 06 33 77 62 40">07 69 78 04 43 - 06 33 77 62 40 </a> </p>
+		</div>
+	</section>
+</footer>
+
+
+</body>
+
+</html>
